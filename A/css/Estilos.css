@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background: #fff;
+    font-family: Calibri;
+  }
+  header{
+    background: #0a3f9b;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 0px 20px #a4a4a4;
+    border-bottom-style: solid;
+    border-bottom-color: #585858;
+    border-bottom-width: 5pxs;
+  }
+  #encabezado{
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    border: 0px solid #000;
+  }
+  header .logo-nba{
+  width: 80px;
+  height: 70px;
+  display: block;
+  position: absolute;
+  border-radius: 5px;
+  padding: 15px 50px 30px 14px;
+
+}
+
+  #logo{
+      width: 30%;
+      height: auto;
+      overflow: hidden;
+      float: left;
+      color: #fff;
+      font-size: 30px;
+      margin-top: 30px;
+  }
+
+  #Menu{
+      width: 55%;
+      height: 30px;
+      float: right;
+      border: 0px solid red;
+      margin-top: 57px;
+      
+  }
+
+  #Menu ul li{
+      list-style: none;
+      display: inline-block;
+      margin-top: 10px;
+
+  }
+  
+  #Menu ul li .enlace {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+      font-size: 16px;;
+  }
+  #Menu ul li .enlace:hover{
+      background: #585858;
+      color: #fff;
+      border-radius: 5px 5px 0px 0px;
+
+  }
+  #Menu ul li .activo{
+    background: #585858;
+    color: #fff;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px;
+  }
+  /*******************Contenido Principal***********************/
+  #principal {
+    width: 80%;
+    height: auto; overflow: hidden;
+    border: 0px solid;
+    margin: 10px auto;
+  }
+  #publicaciones{
+    width: 70%;
+    height: auto; overflow: hidden;
+    border: 0px solid red;
+    margin-top: 10px;
+    float: left;
+  }
+  .post {
+    width: 95%;
+    height: auto; overflow: hidden;
+    padding: 7px;
+    background: #fdfdfd;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #0489b1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #ccc;
+    margin-bottom: 25px;
+
+  }
+
+  .enlace-post{
+    text-decoration: none;
+  }
+  #publicaciones a .titulo-post{
+    color: #6e6e6e;
+    font-size: 22px;
+    font-family: 'calibri light';    
+  }
+  #publicaciones a .titulo-post:hover{
+    text-decoration: underline;
+  }
+  #publicaciones .imagen-post{
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin: 7px 7px 7px 0px ;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  #publicaciones .datos-publicaciones{
+    font-family:  'calibri light';
+    color: #048981;
+  } 
+  #publicaciones .parrafo-post{
+    font-family: 'calibri light';
+    font-size: 16px;
+    color: #848484;
+    padding: 7px;
+
+  }
+#publicaciones .leer-mas {
+  background: #048981;
+  color: white;
+  border: 1px solid black;
+  padding: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 200px;
+  border-radius: 5px;
+}
+#publicaciones .leer-mas:hover {
+  background:  white;
+  color: #048981;  
+}
+#publicaciones .comentarios{
+  background: #0b5b39;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px;
+}
+#publicaciones .enlace-pag{
+  text-decoration: none;
+  color: #048981;
+}
+
+#publicaciones .enlace-pag2{
+  text-decoration: none;
+  color: black;
+}
+#publicaciones .enlace-pag:hover{
+  text-decoration: underline;
+}
+
+#sidebar{
+  float: right;
+  width: 28%;
+  border: 0px solid;
+  height: auto; overflow: hidden;
+  margin-top: 10px;
+}
+
+form{
+  margin-top: 6px;
+
+}
+#buscar, #categoria, #sitio-amigos, #ultimo-post{
+  border-radius: 10px;
+  width: 98%;
+  border: 1px solid #ccc;
+  height: auto; overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#buscar input[type="text"]{
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 5px #ccc inset;
+  padding: 5px 5px;
+  border-radius: 10px;
+  width: 73%;
+  margin-left: 5px;
+  margin-bottom: 5px;
+
+  
+}
+
+#buscar .boton{
+  border: 0px;
+  color: white;
+  background: #0b4c5f;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 11px;
+}
+
+.encabezado-sidebar{
+width: 100%;
+height: 35px;
+background: #0a3f9b;
+text-align: center;
+color: white;
+font-size: 19px;
+font-family: 'calibri light';
+}
+
+.enlace-sidebar{
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+  padding: 7px 4px;
+  color: #848484;
+}
+
+.enlace-sidebar:hover{
+  background: #f2f2f2;
+}
